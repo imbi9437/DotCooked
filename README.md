@@ -6,6 +6,7 @@
 # 지금까지 사용한 라이브러리
 + Dotween Pro
 + Photon Unity Network 2
++ Easy Performant Outline 2D | 3D
 
 # 지금까지 사용한 그래픽 리소스
 + Solaria: Food and Drink Icon Pack
