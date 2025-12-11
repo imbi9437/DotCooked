@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264852968ba462344aa6d40d9f5645b7, type: 3}
+  m_Name: CookedIngredient_ChopedShrimp
+  m_EditorClassIdentifier: 
+  ingredientName: ChopedShrimp
+  id: 0020002
+  sprite: {fileID: 21300000, guid: 711ebb34fe58b164aac6805c36d9171a, type: 3}
+  possibleMethod: 0
+  rawIngredient: {fileID: 11400000, guid: 046516d35babd1e4aa50157a70c870a7, type: 2}
+  requiredMethod: 8

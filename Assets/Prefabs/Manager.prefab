@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5316064051822373876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2183797968317811792}
+  - component: {fileID: 7923553386910806150}
+  - component: {fileID: 7516856165581946158}
+  - component: {fileID: 1626706478926794572}
+  - component: {fileID: 6595384017929430116}
+  - component: {fileID: 442454401396616712}
+  - component: {fileID: 3229762793180064463}
+  - component: {fileID: 7639377791352251108}
+  - component: {fileID: 1962460567881124320}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2183797968317811792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7923553386910806150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a02cf9109442d468ee67dfa8e1ccd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+  InitializeDelay: 2
+  Player: {fileID: 7761998824505642136, guid: 09bbc87958577c14cae48b31b9caee63, type: 3}
+--- !u!114 &7516856165581946158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 596a7ca094973fd449b70ee9910dadd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+  sceneInfos:
+  - {fileID: 11400000, guid: ba1138913ed415d44867d0e2f54e0c89, type: 2}
+  - {fileID: 11400000, guid: c3d50a95ff1d1e24ca21d4b479fc70ea, type: 2}
+  - {fileID: 11400000, guid: bdc355346a09f214086e4e49f620c120, type: 2}
+  - {fileID: 11400000, guid: 76841c425faf55a4eb117cd9e2cbea47, type: 2}
+  - {fileID: 11400000, guid: 49ba0709eb3226f48ab9733da89a4138, type: 2}
+--- !u!114 &1626706478926794572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b90d83292a23aa49b1f09b3c3a197a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+  userData:
+    name: 
+    starCount: 0
+    money: 0
+    playTime: 
+    unLockStages: []
+  stageData:
+  - {fileID: 11400000, guid: ebb140ef24b8b6940a77717babd36157, type: 2}
+  - {fileID: 11400000, guid: d88c4a12514265146975c8e961425e82, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 9572794fc7f52714098809b0ea7c3505, type: 2}
+  - {fileID: 11400000, guid: 046516d35babd1e4aa50157a70c870a7, type: 2}
+  - {fileID: 11400000, guid: fb6e6674bad86c949af8883c09130511, type: 2}
+  - {fileID: 11400000, guid: 29428ecfb3603f94ba1db2974ded1a6d, type: 2}
+  - {fileID: 11400000, guid: 4b323b51036987545986bc0ba5a49e05, type: 2}
+  - {fileID: 11400000, guid: 0798ee00474fd994bbf03d00fa19aced, type: 2}
+  - {fileID: 11400000, guid: 23214d2cb0de0e04faf0f8f9a822dc45, type: 2}
+  foodData:
+  - {fileID: 11400000, guid: 03479f945aa9fc047b5bd7712bd92f37, type: 2}
+  - {fileID: 11400000, guid: f084392de948dcb49a4b7bfc4b105ed5, type: 2}
+  - {fileID: 11400000, guid: b212cdcca9800524186fec0a0846a33d, type: 2}
+--- !u!114 &6595384017929430116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a83d940208a5154cad92d4ba754a7c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+--- !u!114 &442454401396616712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d404ee3f4623544b5f13c38f723fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+--- !u!114 &3229762793180064463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e71c0e9d029f5144a8b284bcfb80f5e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+--- !u!114 &7639377791352251108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0be24376c97b254b91cc27fa3b9f234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 1
+--- !u!114 &1962460567881124320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5316064051822373876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

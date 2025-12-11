@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eefbcaa2ef047f4f93588087f0358dc, type: 3}
+  m_Name: ShrimpSashimi
+  m_EditorClassIdentifier: 
+  foodName: ShrimpSashimi
+  id: 0030002
+  score: 20
+  sprite: {fileID: 21300000, guid: 711ebb34fe58b164aac6805c36d9171a, type: 3}
+  requiredMaterials:
+  - {fileID: 11400000, guid: 29428ecfb3603f94ba1db2974ded1a6d, type: 2}
